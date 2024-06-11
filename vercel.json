@@ -1,0 +1,40 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "public/captura.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "public/obrigado.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "public/vendas-abertas.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/captura",
+        "dest": "/public/captura.html"
+      },
+      {
+        "src": "/obrigado",
+        "dest": "/public/obrigado.html"
+      },
+      {
+        "src": "/vendas-abertas",
+        "dest": "/public/vendas-abertas.html"
+      }
+    ]
+  }
+  
