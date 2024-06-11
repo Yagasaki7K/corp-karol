@@ -7,7 +7,7 @@ export default defineConfig({
                 main: 'index.html',
                 captura: 'captura.html',
                 obrigado: 'obrigado.html',
-                vendasabertas: 'vendas-abertas.html',
+                "vendas-abertas": 'vendas-abertas.html',
             },
         },
     },
