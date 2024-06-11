@@ -1,1 +1,1 @@
-# corp-karol-escoladedivas
+# corp-karol
