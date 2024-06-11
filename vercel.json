@@ -6,15 +6,15 @@
         "use": "@vercel/static"
       },
       {
-        "src": "public/captura.html",
+        "src": "captura.html",
         "use": "@vercel/static"
       },
       {
-        "src": "public/obrigado.html",
+        "src": "obrigado.html",
         "use": "@vercel/static"
       },
       {
-        "src": "public/vendas-abertas.html",
+        "src": "vendas-abertas.html",
         "use": "@vercel/static"
       }
     ],
@@ -25,15 +25,15 @@
       },
       {
         "src": "/captura",
-        "dest": "/public/captura.html"
+        "dest": "/captura.html"
       },
       {
         "src": "/obrigado",
-        "dest": "/public/obrigado.html"
+        "dest": "/obrigado.html"
       },
       {
         "src": "/vendas-abertas",
-        "dest": "/public/vendas-abertas.html"
+        "dest": "/vendas-abertas.html"
       }
     ]
   }
