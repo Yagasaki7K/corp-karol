@@ -10,6 +10,6 @@
     "commit": "bun update && bun run vercel && read -p 'Descriptions Commit: ' message && git add . && echo -n \"$message - \" && node getTime.js | xargs -I {} git commit -m \"$message - {}\" && git push"
   },
   "devDependencies": {
-    "vite": "^5.3.1"
+    "vite": "^5.3.3"
   }
 }
